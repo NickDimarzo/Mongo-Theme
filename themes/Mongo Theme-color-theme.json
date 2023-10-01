@@ -1,10 +1,36 @@
 {
 	"name": "Mongo Theme",
 	"colors": {
-		"editor.background": "#263238",
+		"editor.background": "#0f111a",
 		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"titleBar.activeBackground": "#090b10",
+		"titleBar.activeForeground": "#d7586f",
+		"titleBar.inactiveBackground": "#090b10",
+		"menu.background": "#121621",
+		"menu.foreground": "#d7586f",
+		"menubar.selectionBackground": "#3d181e",
+		"activityBarBadge.background": "#d7586f",
+		"activityBar.background": "#090b10",
+		"activityBar.foreground": "#d7586f",
+		"activityBarBadge.foreground": "#090b10",
+		"sideBar.background": "#090b10",
+		"sideBar.foreground": "#d7586f",
+		"sideBar.border": "#d7586f",
+		"sideBarSectionHeader.background": "#090b10",
+		"sideBarTitle.foreground": "#d7586f",
+		"toolbar.hoverBackground": "#3d181e",
+		"window.activeBorder": "#d7586f",
+		"tab.inactiveBackground": "#0f111a",
+		"tab.border": "#d7586f",
+		"tab.activeBorderTop": "#d7586f",
+		"tab.activeForeground": "#d7586f",
+		"editorGroupHeader.tabsBackground": "#090b10",
+		"dropdown.background": "#090b10",	
+		"dropdown.listBackground": "#090b10",	
+		"list.activeSelectionBackground": "#090b10",	
+		"list.inactiveSelectionBackground": "#090b10",	
+		"list.inactiveSelectionForeground": "#21fb00",	
+		"list.inactiveSelectionIconForeground": "#d7586f",	
 	},
 	"tokenColors": [
 		{
@@ -149,7 +175,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#9c9898"
 			}
 		},
 		{
@@ -238,7 +264,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#fb7805e0"
+				"foreground": "#89DDFF"
 			}
 		},
 		{
