@@ -14,7 +14,7 @@
 		"activityBar.foreground": "#d7586f",
 		"activityBarBadge.foreground": "#090b10",
 		"sideBar.background": "#090b10",
-		"sideBar.foreground": "#d7586f",
+		"sideBar.foreground": "#39393e",
 		"sideBar.border": "#d7586f",
 		"sideBarSectionHeader.background": "#090b10",
 		"sideBarTitle.foreground": "#d7586f",
@@ -29,8 +29,12 @@
 		"dropdown.listBackground": "#090b10",	
 		"list.activeSelectionBackground": "#090b10",	
 		"list.inactiveSelectionBackground": "#090b10",	
-		"list.inactiveSelectionForeground": "#21fb00",	
+		"list.inactiveSelectionForeground": "#d7586f",	
 		"list.inactiveSelectionIconForeground": "#d7586f",	
+		"list.hoverBackground": "#090b10",
+		"list.hoverForeground": "#24fc03",
+		"list.focusOutline": "#090b10",
+		"list.activeSelectionForeground": "#d7586f"
 	},
 	"tokenColors": [
 		{
@@ -105,6 +109,17 @@
 			}
 		},
 		{
+			"name": "Operator, Misc",
+			"scope": [
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html"
+			],
+			"settings": {
+				"foreground": "#d3d3d3"
+			}
+		},
+		{
 			"name": "Tag",
 			"scope": [
 				"entity.name.tag",
@@ -175,7 +190,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#9c9898"
+				"foreground": "#89DDFF"
 			}
 		},
 		{
@@ -264,7 +279,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#e7fd5c"
 			}
 		},
 		{
