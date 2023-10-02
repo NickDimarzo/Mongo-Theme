@@ -2,7 +2,7 @@
 	"name": "Mongo Theme",
 	"colors": {
 		"editor.background": "#0f111a",
-		"editor.foreground": "#eeffff",
+		"editor.foreground": "#817676",
 		"editorWidget.background": "#090b10",
 		"editorWidget.foreground": "#d7586f",
 		"selection.background": "#090b10",
@@ -59,7 +59,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#7a5454"
 			}
 		},
 		{
@@ -204,7 +204,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#ddcc6f"
+				"foreground": "#f8e67f"
 			}
 		},
 		{
