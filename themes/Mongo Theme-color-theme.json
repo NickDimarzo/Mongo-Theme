@@ -105,7 +105,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#ddcc6f"
 			}
 		},
 		{
@@ -116,7 +116,7 @@
 				"punctuation.definition.tag.end.html"
 			],
 			"settings": {
-				"foreground": "#d3d3d3"
+				"foreground": "#89DDFF"
 			}
 		},
 		{
@@ -190,7 +190,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#ddcc6f"
 			}
 		},
 		{
@@ -279,7 +279,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#e7fd5c"
+				"foreground": "#89DDFF"
 			}
 		},
 		{
