@@ -2,7 +2,7 @@
 	"name": "Mongo Theme",
 	"colors": {
 		"editor.background": "#0f111a",
-		"editor.foreground": "#817676",
+		"editor.foreground": "#ffffff75",
 		"editorWidget.background": "#090b10",
 		"editorWidget.foreground": "#d7586f",
 		"selection.background": "#090b10",
@@ -49,6 +49,12 @@
 		"inputOption.activeBackground": "#090b10",
 		"breadcrumb.foreground": "#d7586f",
 		"breadcrumb.focusForeground": "#24fc03",
+		"editorBracketHighlight.foreground1": "#89DDFF",
+		"editorBracketHighlight.foreground2": "#89DDFF",
+		"editorBracketHighlight.foreground3": "#89DDFF",
+		"editorBracketHighlight.foreground4": "#89DDFF",
+		"editorBracketHighlight.foreground5": "#89DDFF",
+		"editorBracketHighlight.foreground6": "#89DDFF",
 	},
 	"tokenColors": [
 		{
@@ -154,7 +160,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#d7586f"
 			}
 		},
 		{
@@ -189,7 +195,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#fb3c3c"
+				"foreground": "#f8e67f"
 			}
 		},
 		{
@@ -290,10 +296,31 @@
 		{
 			"name": "Attributes",
 			"scope": [
-				"entity.other.attribute-name"
+				"entity.other.attribute-name.id.css"
+				/*NOTE: i added .id.css after name*/
+			],
+			"settings": {
+				"foreground": "#d7586f"
+			}
+		},
+		{
+			"name": "Attributes",
+			"scope": [
+				"entity.other.attribute-name.html"
+				/*NOTE: i added .html after name and copied this block from above to target the html and css syntax seperatly*/
 			],
 			"settings": {
 				"foreground": "#89DDFF"
+			}
+		},
+		{
+			"name": "Attributes",
+			"scope": [
+				"entity.other.attribute-name.pseudo-class"
+				/*NOTE: i added .html after name and copied this block from above to target the html and css syntax seperatly*/
+			],
+			"settings": {
+				"foreground": "#d7586f"
 			}
 		},
 		{
