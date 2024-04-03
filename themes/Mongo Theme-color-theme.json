@@ -2,7 +2,7 @@
 	"name": "Mongo Theme",
 	"colors": {
 		"editor.background": "#0f111a",
-		"editor.foreground": "#ffffff75",
+		"editor.foreground": "#fdfdfdd6",
 		"editorWidget.background": "#090b10",
 		"editorWidget.foreground": "#d7586f",
 		"selection.background": "#090b10",
@@ -88,6 +88,25 @@
 			}
 		},
 		{
+			"name": "Colors",
+			"scope": [
+				"constant.other.database-name.sql",
+				"constant.other.table-name.sql"
+			],
+			"settings": {
+				"foreground": "#8dee97"
+			}
+		},
+		{
+			"name": "Colors",
+			"scope": [
+				"constant.numeric.sql",
+			],
+			"settings": {
+				"foreground": "#f67eff"
+			}
+		},
+		{
 			"name": "Invalid",
 			"scope": [
 				"invalid",
@@ -106,6 +125,17 @@
 			],
 			"settings": {
 				"foreground": "#05fffb"
+			}
+		},
+		{
+			"name": "Keyword, Storage",
+			"scope": [
+				"keyword",
+				"storage.type.sql",
+				"storage.modifier"
+			],
+			"settings": {
+				"foreground": "#f8e67f"
 			}
 		},
 		{
@@ -128,6 +158,17 @@
 				"foreground": "#89DDFF"
 			}
 		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				"keyword.operator.math.sql",
+				"keyword.operator.comparison.sql"
+			],
+			"settings": {
+				"foreground": "#89DDFF"
+			}
+		},
+		
 		{
 			"name": "Operator, Misc",
 			"scope": [
@@ -307,7 +348,7 @@
 			"name": "Attributes",
 			"scope": [
 				"entity.other.attribute-name.html"
-				/*NOTE: i added .html after name and copied this block from above to target the html and css syntax seperatly*/
+				/*NOTE: i added .html after name and copied this block from above to target the html and css syntax */
 			],
 			"settings": {
 				"foreground": "#89DDFF"
@@ -317,7 +358,7 @@
 			"name": "Attributes",
 			"scope": [
 				"entity.other.attribute-name.pseudo-class"
-				/*NOTE: i added .html after name and copied this block from above to target the html and css syntax seperatly*/
+				/*NOTE: i added .html after name and copied this block from above to target the html and css syntax */
 			],
 			"settings": {
 				"foreground": "#d7586f"
