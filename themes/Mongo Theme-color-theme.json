@@ -58,6 +58,34 @@
 	},
 	"tokenColors": [
 		{
+			"name": "React Native",
+			"scope": [
+				"variable.other.constant.js.jsx"
+			],
+			"settings": {
+				"foreground": "#dafde6"
+			}
+		},
+		{
+			"name": "React Native",
+			"scope": [
+				"string.quoted.single.js.jsx"
+			],
+			"settings": {
+				"foreground": "#89DDFF"
+			}
+		},
+		{
+			"name": "React Native",
+			"scope": [
+				"entity.name.function.js.jsx"
+			],
+			"settings": {
+				"foreground": "#f8e67f"
+			}
+		},
+		
+		{
 			"name": "Comment",
 			"scope": [
 				"comment",
