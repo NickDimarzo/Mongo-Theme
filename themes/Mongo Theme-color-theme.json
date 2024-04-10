@@ -84,6 +84,16 @@
 				"foreground": "#f8e67f"
 			}
 		},
+		{
+			"name": "PL/SQL",
+			"scope": [
+				"entity.name.function.sql",
+			
+			],
+			"settings": {
+				"foreground": "#fdfdfdd6"
+			}
+		},
 		
 		{
 			"name": "Comment",
