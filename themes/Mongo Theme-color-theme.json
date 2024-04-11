@@ -58,6 +58,87 @@
 	},
 	"tokenColors": [
 		{
+			"name": "React",
+			"scope": [
+				"keyword.control.import.js",
+				"keyword.control.export.js",
+				"keyword.control.from.js",
+				"keyword.control.as.js",
+				"keyword.control.default.js",
+				
+			],
+			"settings": {
+				"foreground": "#ff73e1" /*purple*/
+			}
+		},
+		{
+			"name": "React",
+			"scope": [
+				"string.quoted.double.js", 
+				"string.quoted.single.js", 
+				"entity.name.function.js",
+			],
+			"settings": {
+				"foreground": "#f9ff7d"
+			}
+		},
+		{
+			"name": "React",
+			"scope": [
+	
+				"variable.other.constant.js",
+				
+				"variable.other.readwrite.alias.js",
+				"variable.other.object.js",
+				
+			],
+			"settings": {
+				"foreground": "#eff0e6"
+			}
+		},
+		{
+			"name": "React",
+			"scope": [
+				"keyword.operator.assignment.js",
+				"keyword.control.loop.js",
+				"keyword.control.flow.js",
+				"punctuation.definition.block.js",
+				"punctuation.definition.parameters.end.js",
+				"punctuation.definition.parameters.begin.js",
+				"variable.other.readwrite.js",
+			],
+			"settings": {
+				"foreground": "#89DDFF"
+			}
+		},
+		{
+			"name": "React",
+			"scope": [
+				
+				
+				
+				
+				
+			],
+			"settings": {
+				"foreground": "#f07178"
+			}
+		},
+		{
+			"name": "React",
+			"scope": [
+				
+				"storage.type.function.js",
+				"storage.type.js",
+				
+				
+				
+			],
+			"settings": {
+				"foreground": "#ed459c" /*pink*/
+			}
+		},
+		{
 			"name": "React Native",
 			"scope": [
 				"variable.other.constant.js.jsx"
