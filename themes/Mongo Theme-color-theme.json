@@ -55,6 +55,8 @@
 		"editorBracketHighlight.foreground4": "#89DDFF",
 		"editorBracketHighlight.foreground5": "#89DDFF",
 		"editorBracketHighlight.foreground6": "#89DDFF",
+		"statusBar.background": "#090b10",
+		"statusBar.foreground": "#d7586f",
 	},
 	"tokenColors": [
 		{
@@ -800,7 +802,7 @@
 		  "name": "Integers",
 		  "scope": "constant.numeric",
 		  "settings": {
-			"foreground": "#f4ff76"
+			"foreground": "#ff7de5"
 		  }
 		},
 		{
@@ -1858,6 +1860,34 @@
 			"foreground": "#00ffc3"
 		  }
 		},
+		{
+			"name": "PL/SQL",
+			"scope": "source.sql",
+			"settings": {
+			  "foreground": "#fbf6a9"
+			}
+		  },
+		  {
+			"name": "React",
+			"scope":[ 
+				"constant.language.boolean.true.js.jsx",
+			 	"constant.language.boolean.false.js.jsx",
+			 	"constant.language.null.js.jsx",
+			],
+			"settings": {
+			  "foreground": "#ff7de5"
+			}
+		  },
+		  {
+			"name": "Java",
+			"scope":[ 
+				"keyword.operator.comparison.java",
+				"keyword.operator.logical.java"
+			],
+			"settings": {
+			  "foreground": "#8edfffe9"
+			}
+		  },
 		{
 		  "name": "js/ts italic",
 		  "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
