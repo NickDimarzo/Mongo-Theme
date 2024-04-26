@@ -1868,6 +1868,25 @@
 			}
 		  },
 		  {
+			"name": "PL/SQL",
+			"scope": "storage.type.sql",
+			"settings": {
+			  "foreground": "#EBFF5C"
+			}
+		  },
+		  {
+			"name": "PL/SQL",
+			"scope": [
+				"string.quoted.single.sql",
+				"punctuation.definition.string.end.sql",
+				"punctuation.definition.string.begin.sql",
+			],
+			"settings": {
+			  "foreground": "#68f934"
+			}
+		  },
+
+		  {
 			"name": "React",
 			"scope":[ 
 				"constant.language.boolean.true.js.jsx",
