@@ -1,16 +1,15 @@
-# mongotheme README
+# <Theme Name>
 
-## Working with Markdown
+## Description
+This is a theme I have created for Visual Studio Code
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Installation
+1) Clone this repository.
+2) Open with VScode.
+3) Press f5 to run VScode again with Mongo Theme.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Screenshots
 
-## For more information
+<Include one or more screenshots showcasing your theme in different programming languages and scenarios.>
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-**Enjoy!**
