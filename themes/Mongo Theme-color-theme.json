@@ -50,7 +50,7 @@
 		"breadcrumb.foreground": "#d7586f",
 		"breadcrumb.focusForeground": "#24fc03",
 		"editorIndentGuide.activeBackground1": "#d7586f",
-		"editorBracketHighlight.foreground1": "#30ffe2",
+		"editorBracketHighlight.foreground1": "#ffff30",
 		"editorBracketHighlight.foreground2": "#30ffe2",
 		"editorBracketHighlight.foreground3": "#30ffe2",
 		"editorBracketHighlight.foreground4": "#30ffe2",
