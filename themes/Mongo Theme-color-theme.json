@@ -452,8 +452,16 @@
 			"settings": {
 				"foreground": "#56d6d2"
 			}
-		}
-		
+		},
+		{
+			"name": "React",
+			"scope":[ 
+				"storage.type.function.arrow.js",
+			],
+			"settings": {
+				"foreground": "#ff00dd"
+			}
+		},
 		
 		
 	],
