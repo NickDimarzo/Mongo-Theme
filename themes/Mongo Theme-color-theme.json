@@ -428,7 +428,7 @@
 			"name": "this.self",
 			"scope": "variable.language",
 			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#00ff84"
 			}
 		},
 		{
@@ -457,9 +457,11 @@
 			"name": "React",
 			"scope":[ 
 				"storage.type.function.arrow.js",
+				"keyword.operator.ternary.js",
+				"keyword.operator"
 			],
 			"settings": {
-				"foreground": "#ff00dd"
+				"foreground": "#00ff84"
 			}
 		},
 		
