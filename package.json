@@ -20,6 +20,11 @@
         "label": "Mongo Theme Yellow",
         "uiTheme": "vs-dark",
         "path": "./themes/Mongo Theme Yellow-color-theme.json"
+      },
+      {
+        "label": "Mongo Theme Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Mongo Theme Blue-color-theme.json"
       }
     ]
   }
