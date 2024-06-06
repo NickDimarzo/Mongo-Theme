@@ -1,41 +1,41 @@
 {
-	"name": "Mongo Red Theme",
+	"name": "Mongo Blue Theme",
 	"colors": {
 		"editor.background": "#0f111a",
 		"editor.foreground": "#fdfdfdd6",
 		"editorWidget.background": "#090b10",
-		"editorWidget.foreground": "#d7586f",
+		"editorWidget.foreground": "#03d3fc",
 		"selection.background": "#090b10",
 		"titleBar.activeBackground": "#090b10",
-		"titleBar.activeForeground": "#d7586f",
+		"titleBar.activeForeground": "#03d3fc",
 		"titleBar.inactiveBackground": "#090b10",
 		"menu.background": "#121621",
-		"menu.foreground": "#d7586f",
-		"menubar.selectionBackground": "#3d181e",
-		"activityBarBadge.background": "#d7586f",
+		"menu.foreground": "#03d3fc",
+		"menubar.selectionBackground": "#4d4a4a",
+		"activityBarBadge.background": "#03d3fc",
 		"activityBar.background": "#090b10",
-		"activityBar.foreground": "#d7586f",
+		"activityBar.foreground": "#03d3fc",
 		"activityBarBadge.foreground": "#090b10",
 		"sideBar.background": "#090b10",
 		"sideBar.foreground": "#39393e",
-		"sideBar.border": "#d7586f",
+		"sideBar.border": "#03d3fc",
 		"sideBarSectionHeader.background": "#090b10",
-		"sideBarTitle.foreground": "#d7586f",
-		"toolbar.hoverBackground": "#3d181e",
-		"window.activeBorder": "#d7586f",
+		"sideBarTitle.foreground": "#03d3fc",
+		"toolbar.hoverBackground": "#4d4a4a",
+		"window.activeBorder": "#03d3fc",
 		"tab.inactiveBackground": "#0f111a",
-		"tab.border": "#d7586f",
-		"tab.activeBorderTop": "#d7586f",
-		"tab.activeForeground": "#d7586f",
-		"sideBySideEditor.horizontalBorder": "#d7586f",
-		"sideBySideEditor.verticalBorder": "#d7586f",
+		"tab.border": "#03d3fc",
+		"tab.activeBorderTop": "#03d3fc",
+		"tab.activeForeground": "#03d3fc",
+		"sideBySideEditor.horizontalBorder": "#03d3fc",
+		"sideBySideEditor.verticalBorder": "#03d3fc",
 		"editorGroupHeader.tabsBackground": "#090b10",
 		"dropdown.background": "#090b10",	
 		"dropdown.listBackground": "#090b10",	
 		"list.activeSelectionBackground": "#090b10",	
 		"list.inactiveSelectionBackground": "#090b10",	
-		"list.inactiveSelectionForeground": "#d7586f",	
-		"list.inactiveSelectionIconForeground": "#d7586f",	
+		"list.inactiveSelectionForeground": "#03d3fc",	
+		"list.inactiveSelectionIconForeground": "#03d3fc",	
 		"list.inactiveFocusBackground": "#090b10",	
 		"list.filterMatchBackground": "#090b10",	
 		"list.dropBackground": "#090b10",	
@@ -45,11 +45,11 @@
 		"list.focusOutline": "#090b10",
 		"list.activeSelectionForeground": "#24fc03",
 		"input.background": "#090b10",
-		"input.border": "#d7586f",
+		"input.border": "#03d3fc",
 		"inputOption.activeBackground": "#090b10",
-		"breadcrumb.foreground": "#d7586f",
+		"breadcrumb.foreground": "#03d3fc",
 		"breadcrumb.focusForeground": "#24fc03",
-		"editorIndentGuide.activeBackground1": "#d7586f",
+		"editorIndentGuide.activeBackground1": "#03d3fc",
 		"editorBracketHighlight.foreground1": "#ffff30",
 		"editorBracketHighlight.foreground2": "#56d6d2",
 		"editorBracketHighlight.foreground3": "#ffff30",
@@ -57,7 +57,24 @@
 		"editorBracketHighlight.foreground5": "#ffff30",
 		"editorBracketHighlight.foreground6": "#56d6d2",
 		"statusBar.background": "#090b10",
-		"statusBar.foreground": "#d7586f",
+		"statusBar.foreground": "#03d3fc",
+        // Adding new Colors
+        "editorLineNumber.foreground": "#03d3fc",
+        "editorLineNumber.activeForeground": "#24fc03",
+        "editorCursor.foreground": "#03d3fc",
+        "window.inactiveBorder": "#03d3fc",
+        "editorGroup.border": "#03d3fc",
+        "badge.foreground": "#03d3fc",
+        "badge.background": "#090b10",
+        "icon.foreground": "#03d3fc",
+        
+        
+        // terminal colors
+        "terminal.border": "#03d3fc",
+        
+
+
+        
 	},
 	"tokenColors": [
 		{
@@ -95,7 +112,7 @@
 		{
 			"scope": ["comment", "punctuation.definition.comment"],
 			"settings": {
-				"foreground": "#8b5454c5"
+				"foreground": "#547f8bc5"
 			}
 		},
 		{
