@@ -112,7 +112,9 @@
 		{
 			"scope": ["comment", "punctuation.definition.comment"],
 			"settings": {
-				"foreground": "#8b8854c5"
+
+				"foreground": "#898b54c5"
+
 			}
 		},
 		{
