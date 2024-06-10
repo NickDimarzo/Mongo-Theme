@@ -309,7 +309,7 @@
 				"keyword.operator.noexcept"
 			],
 			"settings": {
-				"foreground": "#d7586f"
+				"foreground": "#d7ca58"
 			}
 		},
 		{
@@ -373,7 +373,7 @@
 		{
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#d7586f"
+				"foreground": "#d7c858"
 			}
 		},
 		{
@@ -457,7 +457,7 @@
 				"entity.name.function"
 			],
 			"settings": {
-				"foreground": "#fc9696"
+				"foreground": "#fc96d1"
 			}
 		},
 		{
